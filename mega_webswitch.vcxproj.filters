@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f136019a-b995-406c-81e1-48c8e6c2c3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly">
+      <UniqueIdentifier>{cfa31235-b5ae-4f8e-ae1c-8a9cd4187f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\core">
+      <UniqueIdentifier>{7f09463d-84e6-4e92-99cc-323c0b42007f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\variants">
+      <UniqueIdentifier>{191428fc-c6e1-43c2-bb2b-433a296e5e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\variants\mega">
+      <UniqueIdentifier>{69abd631-e952-45e1-889d-30b45ca1b393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries">
+      <UniqueIdentifier>{07ae50af-365d-4108-b095-ed334f71fb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Ethernet">
+      <UniqueIdentifier>{c5a9f820-fa61-4e80-91a2-5dfc3e16648c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Ethernet\src">
+      <UniqueIdentifier>{b5825f74-cb52-41b6-bc7f-a72c9e6a6419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Ethernet\src\utility">
+      <UniqueIdentifier>{5861d7af-b349-49c0-ad39-15a3ab8fbe62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\HashMap">
+      <UniqueIdentifier>{1383308e-9f85-4b0f-a1c7-b455dc457fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\SD">
+      <UniqueIdentifier>{26025ec4-a767-45c6-b90f-07e03b65d205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\SD\src">
+      <UniqueIdentifier>{c5e609de-0537-4d7d-8896-44e2c3e956b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\SD\src\utility">
+      <UniqueIdentifier>{3a5afdb5-e562-4221-8eea-c57421b2460f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\SPI">
+      <UniqueIdentifier>{bc30756d-6ccf-44a0-aff5-6a56d34ea73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\SPI\src">
+      <UniqueIdentifier>{f995d028-8b0d-418c-bf3f-10645db27041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries\Time">
+      <UniqueIdentifier>{72ea3feb-1297-468d-866f-958a005edd61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mega_webswitch.ino" />
+    <None Include="config.cfg" />
+    <None Include="mega_webswitch.css" />
+    <None Include="..\libraries\HashMap.rar" />
+    <None Include="..\libraries\Time.rar" />
+    <None Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\arduino\libraries\Ethernet\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\arduino\libraries\SD\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\SD</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\arduino\hardware\arduino\avr\libraries\SPI\library.properties">
+      <Filter>src\_micro-api-readonly\libraries\SPI</Filter>
+    </None>
+    <None Include="..\..\..\Desktop\arduino\libraries\Time\library.json">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </None>
+    <None Include="webswitch_libs.zip" />
+    <None Include="mega_webswitch.js" />
+    <None Include="..\..\..\Desktop\DM5XX-Dateien\mega_webswitch.css" />
+    <None Include="mega_webswitch_412.css" />
+    <None Include="mega_webswitch_412.js" />
+    <None Include="mega_webswitch_content.js" />
+    <None Include="mega_webswitch_content_412.js" />
+    <None Include="config_a.cfg" />
+    <None Include="mega_webswitch_412_mix.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.mega_webswitch.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\variants\mega\pins_arduino.h">
+      <Filter>src\_micro-api-readonly\variants\mega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Dhcp.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Dns.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Ethernet.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetClient.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetServer.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetUdp.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\socket.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\util.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5100.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5200.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5500.h">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\HashMap\HashMap.h">
+      <Filter>src\_micro-api-readonly\libraries\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\SD.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\FatStructs.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\Sd2Card.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\Sd2PinMap.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdFat.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdFatmainpage.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdFatUtil.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdInfo.h">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\hardware\arduino\avr\libraries\SPI\src\SPI.h">
+      <Filter>src\_micro-api-readonly\libraries\SPI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\arduino\libraries\Time\Time.h">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\abi.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\CDC.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Dhcp.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Dns.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\Ethernet.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetClient.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetServer.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\EthernetUdp.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\socket.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5100.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5200.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Ethernet\src\utility\w5500.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\SD\src\File.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\SD\src\SD.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\Sd2Card.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdFile.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\SD\src\utility\SdVolume.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\hardware\arduino\avr\libraries\SPI\src\SPI.cpp">
+      <Filter>src\_micro-api-readonly\libraries\SPI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Time\DateStrings.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Desktop\arduino\libraries\Time\Time.cpp">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Desktop\arduino\libraries\Ethernet\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\Ethernet</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\libraries\HashMap\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\HashMap</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\libraries\SD\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\SD</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\libraries\SD\src\README.txt">
+      <Filter>src\_micro-api-readonly\libraries\SD\src</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\hardware\arduino\avr\libraries\SPI\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\SPI</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\libraries\Time\keywords.txt">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\arduino\libraries\Time\Readme.txt">
+      <Filter>src\_micro-api-readonly\libraries\Time</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
